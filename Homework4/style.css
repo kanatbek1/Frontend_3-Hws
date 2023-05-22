@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dataContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px 190px;
+  gap: 50px;
+  line-height: 25px;
+}
+
+.dataContainer div img {
+  cursor: pointer;
+}
